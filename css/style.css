@@ -1,0 +1,45 @@
+body {
+  background-color: #d6e2f0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+p {
+  font-size: 15px;
+}
+
+.card {
+  background-color: white;
+  width: 320px;
+  height: 500px;
+  border-radius: 1em;
+}
+
+.card-img {
+  padding: 1em;
+}
+.card-img img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+.card-text {
+  width: auto;
+  padding: 1em;
+  text-align: center;
+}
+.card-text h1 {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
