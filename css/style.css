@@ -1,28 +1,25 @@
 body {
-  background-color: #d6e2f0;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: #3e52a3;
-}
-
-body {
+  background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
 
 p {
   font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .card {
   background-color: white;
+  border-radius: 1em;
   width: 320px;
   height: 500px;
-  border-radius: 1em;
 }
 
 .card-img {
@@ -37,9 +34,9 @@ p {
   width: auto;
   padding: 1em;
   text-align: center;
+  padding: 0 2em;
 }
 .card-text h1 {
   font-size: 20px;
+  color: hsl(218, 44%, 22%);
 }
-
-/*# sourceMappingURL=style.css.map */
