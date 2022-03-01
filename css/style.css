@@ -1,14 +1,19 @@
+
+html {
+  font-size: 100%;
+}
+
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
 
 p {
-  font-size: 15px;
+  font-size: 0.9rem;
   color: hsl(220, 15%, 55%);
 }
 
-.container {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,26 +22,27 @@ p {
 
 .card {
   background-color: white;
-  border-radius: 1em;
-  width: 320px;
-  height: 500px;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 31.25rem;
 }
 
 .card-img {
-  padding: 1em;
+  padding: 1rem;
 }
+
 .card-img img {
   width: 100%;
-  border-radius: 1em;
+  border-radius: 1rem;
 }
 
 .card-text {
   width: auto;
-  padding: 1em;
   text-align: center;
-  padding: 0 2em;
+  padding: 0 2rem;
 }
+
 .card-text h1 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: hsl(218, 44%, 22%);
 }
